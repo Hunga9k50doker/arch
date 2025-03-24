@@ -1,34 +1,54 @@
-# klok-bot
+# ᝰ.ᐟ Arch
 
-### 1. Clone Repository
+Tool được phát triển bởi nhóm tele Airdrop Hunter Siêu Tốc (https://t.me/airdrophuntersieutoc)
+
+## 🚨 Attention Before Running Arch Cli Version
+
+I am not `responsible` for the possibility of an account being `banned`!
+
+## 📎 Arch Node cli version Script features
+
+- Auto task
+- Support proxy or not
+- Mutiple threads, multiple accounts
+
+## ✎ᝰ. RUNNING
+
+- Clone Repository
 
 ```bash
-git clone https://github.com/harunros66/klok.git
+git clone https://github.com/Hunga9k50doker/arch.git
+cd arch
 ```
 
-### 2. Go To Bot Directory
-```
-cd klok
+- Install Dependency
+
+```bash
+npm install
 ```
 
-### 3. Install
-```
-npm install axios https-proxy-agent socks-proxy-agent uuid
+- Setup config in .env
+
+```bash
+nano .env
 ```
 
-### 4. set up token bearer
-```
-nano tokens.txt
-```
+- Setup input value
 
-### 5. proxy
+* proxy: http://user:pass@ip:port
 
 ```bash
 nano proxy.txt
 ```
 
-### 6. run
+- token: how to get token => join my channel: https://t.me/airdrophuntersieutoc
 
 ```bash
-node klok.js
+nano data.txt
+```
+
+- Run the script
+
+```bash
+node main.js
 ```
